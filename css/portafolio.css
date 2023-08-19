@@ -1,0 +1,128 @@
+button{
+  margin-left: 11%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  border-radius: 10%;
+  background-color: rgba(247, 2, 2, 0.5); /* Aquí, 0.5 establece un 50% de opacidad */
+  border: none;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 4px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover,
+button:focus {
+  background-color: rgba(255, 213, 0, 0.918);
+}
+
+
+button {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
+header{
+    padding: 5%;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(251, 255, 0);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-top: -2%;
+}
+
+h2{
+  color: rgb(255, 255, 255);
+}
+
+P{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /*margin-left: 5%;*/
+  color: rgb(0, 0, 0);
+}
+
+#nombre{
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+.contenedorcaja{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  margin: 30px 30px;
+  align-items: center;
+  margin-left: 19%;
+}
+
+div{
+  width: 400px;
+  height: 300px;
+  margin-left: 15px;
+}
+
+
+.Caja1, .Caja2, .Caja3, .Caja4{
+  margin-top: -20px;
+}
+
+.Caja1, .Caja2, .Caja3, .Caja4{
+  width: 400px;
+  height: 270px;
+}
+
+.Caja1, .Caja3{
+  margin-right: 150px;
+}
+
+img{
+  width: 320px;
+  height: 190px;
+  display: absolute;
+  bottom: 10px;
+}
+
+
+
+.animada{
+  animation: slideIn 1s infinite alternate; /* Aplicando la animación */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-20%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+body{
+  background-image: url(../Imágenes/fondodos.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+
